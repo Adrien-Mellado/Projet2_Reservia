@@ -1,0 +1,91 @@
+/* elements principaux de la page */
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+h1
+{
+    color: black;
+}
+
+
+/* header */
+
+#logo
+{
+    display: flex;
+    float: left;
+}
+
+
+/* navigation */
+
+nav
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    
+}
+
+ul 
+{  
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+nav li 
+{
+    margin-right: 15px;
+   
+}
+nav a 
+{
+    font-size: 1.3em;
+    color: #0065fc;
+    padding-bottom: 3px;
+    text-decoration: none;
+
+}
+
+nav a:hover
+{
+    color: black;
+    
+}
+
+/*Recherche */
+
+#Recherche h1
+{
+    font-size: 18px;
+}
+
+form input i
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#search 
+{
+    text-align: center;
+    padding: 3px;
+}
+
+#bouton
+{
+    padding: 3px;
+}
