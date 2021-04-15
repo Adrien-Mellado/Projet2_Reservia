@@ -71,21 +71,78 @@ nav a:hover
 #Recherche h1
 {
     font-size: 18px;
+   
 }
 
-form input i
-{
-    display: flex;
-    flex-direction: row;
-}
+
 
 #search 
 {
     text-align: center;
     padding: 3px;
+    border-radius:6px 0px 0px 6px ;
+    outline: none;
+    border: 1px solid #f2f2f2;
+    border-right: none;
 }
 
 #bouton
 {
+    position: absolute;
+    top: 148px;
     padding: 3px;
+    background-color: #0065fc;
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    border-radius: 0px 6px 6px 0px;
+}
+#icone
+{
+    position: absolute;
+    top: 149px;
+    padding: 1px;
+    background-color: #f2f2f2;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #f2f2f2;
+}
+
+/* hebergements */ 
+
+#hebermegement 
+{
+    width: 60%;
+    margin-top: 30px;
+    background-color: #f2f2f2;
+    height: 350px;
+    border-radius: 12px;
+    
+}
+
+#logements
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 200px;
+    justify-content:space-between;
+    align-content: space-between;
+}
+article
+{
+    
+    padding: 2px;
+    height: 130px;
+    margin: 10px ;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 2px 2px 2px  #e2e2e2;
+}
+
+.image
+{
+    width: 140px;
+    height: 70px;
+    border-radius: 12px 12px 0px 0px ;
 }
