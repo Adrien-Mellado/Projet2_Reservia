@@ -162,34 +162,29 @@ nav a:hover
 /* hebergements */ 
 #hebermegement
 {
+    width: auto;
+    display: flex;
+}
+
+#logements
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+
     width: 881px;
     height: 631px;
     background-color: #f2f2f2;
     border-radius: 12px;
-    
-}
-#logements
-{
-    
-   
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content:flex-start;
-    margin-top: 20px;
-    
 }
 
-#hebermegement h4
-{
-   
-   margin-left: 30px;
 
-}
 
 .Bloc_image
 {
+    
     width: 249px;
     height: 200px;
     background-color: white;
@@ -202,7 +197,13 @@ nav a:hover
 
 .Bloc_image p
 {
-    margin-top: 2px;
+    margin-top: 1px;
+    margin-left: 6px;
+}
+.Bloc_image h3
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 6px;
 }
 
@@ -216,17 +217,57 @@ nav a:hover
     border-radius: 20px 20px 0px 0px ;
 }
 
-h2
+#hebermegement h2
 {
-    font-size: 20px;
-    padding: 35px 60px 0px 35px ;
     
+
+    position: absolute;
+    height: 20px;
+    margin-left: 20px;
     
 }
-h3
+#hebermegement h4
 {
-    font-size: 18px;
-    margin: 0px;
-    margin-left: 5px;
+    position: absolute;
+    height: 20px;
+    top: 850px;
+    margin-left: 20px;
 }
 
+/* plus populaire */
+
+ aside 
+{
+    width: 425px;
+    height: 622px;
+    display: flex;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    margin-left: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bloc_populaire
+{
+    width: 347px;
+    height: 147px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    margin-top: 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px  #e2e2e2;
+}
+
+.image_populaire
+{
+    width: 126px;
+    height: 136px;
+    object-fit: cover;
+    padding: 4px 8px 4px 8px;
+    border-radius: 20px 0px 0px 20px;
+}
