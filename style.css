@@ -331,3 +331,150 @@ aside i
 {
     color: #7070709d;
 }
+
+/* Activité */
+
+#activités
+{
+    display: flex;
+    
+}
+
+#bloc_activite2
+{
+    width: 659px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#bloc_activite
+{
+    width: 659px;
+    margin-top: 40px;
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Vieux_port
+{
+    width: 310px;
+    height: 451px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:2px 2px 2px  #e2e2e2 ;
+    margin-right: 15px;
+    
+    
+}
+
+.Port
+{
+    width: 310px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px ;
+}
+
+#Fort_de_Pomègues
+{
+    width: 311px;
+    height: 241px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:2px 2px 2px  #e2e2e2
+}
+.Fort
+{
+    width: 311px;
+    height: 181px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px ;
+}
+
+#ile_du_frioul
+{
+    position: absolute;
+    width: 306px;
+    height: 170px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:2px 2px 2px  #e2e2e2;
+    left: 560px;
+    margin-top: 280px;
+}
+
+.ile
+{
+    width: 306px;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px ;
+}
+
+#Parc_National
+{
+    
+    width: 310px;
+    height: 451px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:2px 2px 2px  #e2e2e2 ;
+    margin-right: 15px;
+    
+}
+
+.Parc
+{
+    width: 310px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px ;
+}
+
+#Notre_Dame
+{
+    
+    width: 307px;
+    height: 193px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:2px 2px 2px  #e2e2e2
+}
+
+.notre
+{
+    width: 307px;
+    height: 142px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px ;
+}
+
+#Parc_longchamp
+{
+    position:absolute;
+    left: 1220px;
+    margin-top: 230px;
+    width: 311px;
+    height: 218px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:2px 2px 2px  #e2e2e2
+}
+
+.parc
+{
+    width: 311px;
+    height: 151px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px ;
+}
