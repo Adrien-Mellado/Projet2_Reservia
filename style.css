@@ -340,10 +340,20 @@ aside i
     
 }
 
+#activités h3
+{
+    margin-left: 20px;
+}
+
+.Titre_activité
+{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
 #bloc_activite2
 {
     width: 659px;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -353,7 +363,7 @@ aside i
 #bloc_activite
 {
     width: 659px;
-    margin-top: 40px;
+    margin-top: 20px;
    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -477,4 +487,70 @@ aside i
     height: 151px;
     object-fit: cover;
     border-radius: 12px 12px 0px 0px ;
+}
+
+
+/* Footer */
+
+footer 
+{
+    display: flex;
+    background-color: #f2f2f2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    
+}
+footer ul 
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    
+}
+
+footer li
+{
+    padding-top: 10px;
+    margin-top: 0px;
+} 
+
+footer h4
+{
+    margin-bottom: 0px;
+}
+
+#A_propos
+{
+    width: 237px;
+    height: 139;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+#Nos_hebergemtns
+{
+    width: 237px;
+    height: 139;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    
+}
+
+#Assistance
+{
+    width: 237px;
+    height: 139;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end
 }
