@@ -188,6 +188,7 @@ form i
     width: auto;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 #hebermegement a
@@ -618,3 +619,179 @@ footer h4
     align-content: flex-end
 }
 
+/***********************************
+        VERSION MOBILE 
+ **********************************/
+ 
+ @media (max-width: 375px) {
+
+    #bloc_page
+    {
+        width: 375px;
+    }
+
+  
+
+
+    /* header */
+
+    #logo
+    {
+        position: absolute;
+        top: 25px;
+        left: 20px;
+       margin: 0px;
+    }
+
+    header
+    {
+      height: 134px;
+    }
+
+
+   /* navigation */
+
+.lien_hebergement
+{
+    width: 200px;
+    position:absolute;
+    top: 100px;
+    left: 10px;
+    color: black;
+    text-align: center;
+    border-bottom: 3px solid #f2f2f2;
+
+}
+
+ header a:hover
+{
+    color: #0065fc;
+  border-bottom: 3px solid #0065fc;
+}
+
+.lien_activité
+{
+    width: 200px;
+    position:absolute;
+    top: 100px;
+    left: 180px ;
+    color: black;
+    text-align: center;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.inscrire
+{
+    position: absolute;
+    font-weight: bold;
+    right: 22px;
+    top:43px
+}
+
+
+
+/*Recherche */
+
+#Recherche 
+{
+    margin-left: 10px;
+}
+
+
+#Recherche h1
+{
+    font-size: 25px;
+   
+}
+ 
+form i
+{
+    position: absolute;
+    top: 266px;
+    
+}
+
+
+#search
+{
+    
+    top: 266px;
+}
+
+#bouton
+{
+    
+    top: 266px;
+}
+
+
+/* Filtre */
+
+#Filtre 
+{
+    display: flex;
+    width: 339px;
+    height: 224px;
+    margin-left: 10px;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+ #Box_Filtre 
+ {
+    display: flex;
+    width: 342px;
+    height: 224px;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+ }
+
+#Filtre p 
+{
+    font-size: 15px;
+}
+
+#Filtre h4
+ {
+     margin-top: 20px;
+ }
+
+
+
+ /* hebergement */
+
+
+ #hebermegement {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+
+aside 
+{
+    
+    width: 375px;
+    display: flex;
+    border-radius: 12px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+  }
+  
+
+
+
+
+  
