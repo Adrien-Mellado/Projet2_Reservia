@@ -102,6 +102,7 @@ form i
     background-color: #f2f2f2;
     border-radius: 6px 0px 0px 6px;
     border: 1px solid #f2f2f2;
+    font-size: 22px;
 }
 
 
@@ -113,6 +114,7 @@ form i
     outline: none;
     border: 1px solid #f2f2f2;
     border-right: none;
+    font-size: 18px;
 }
 
 #bouton
@@ -124,6 +126,7 @@ form i
     border: 1px solid #f2f2f2;
     color: #f2f2f2;
     border-radius: 0px 6px 6px 0px;
+    font-size: 18px;
 }
 
 /* Filtre */
