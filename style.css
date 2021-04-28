@@ -187,18 +187,24 @@ form i
     justify-content: center;
 }
 
+#hebermegement a
+{
+    width: 285px;
+    height: 236px;
+}
+
 #logements
 {
 
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-
+    flex-direction: column;
     width: 881px;
     height: 631px;
     background-color: #f2f2f2;
     border-radius: 12px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap
 }
 
 
@@ -239,14 +245,7 @@ form i
     border-radius: 20px 20px 0px 0px ;
 }
 
-#hebermegement h2
-{
-    
 
-    position: absolute;
-   left: 300px;
-    
-}
 #hebermegement h4
 {
     position: absolute;
@@ -269,6 +268,14 @@ form i
     margin-left: 0px;
 }
 
+#titre
+{
+    position: absolute;
+    top: 320px;
+    margin-left: 40px;
+    
+}
+
 
 /* plus populaire */
 
@@ -281,8 +288,10 @@ form i
     border: 1px solid #f2f2f2;
     border-radius: 12px;
     margin-left: 20px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Bloc_populaire
@@ -295,7 +304,9 @@ form i
     margin-top: 14px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px  #e2e2e2;
-    
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
   
     
 }
@@ -309,17 +320,20 @@ form i
     border-radius: 20px 0px 0px 20px;
 }
 
-aside p
+#Prix_populaire
 {
-    position: absolute;
-    left: 1371px;
-    margin-top: 70px;
-    
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 0px;
 }
 
 aside h3
 {
     margin-left: 4px;
+    margin-bottom: 0px;
 }
 
 aside h1
@@ -335,11 +349,8 @@ aside i
 
 .etoile
 {
-    position: absolute;
+    position: flex;
     color: #0065fc;
-  margin-left:0px ;
-  left: 1371px;
-  margin-top: 110px;
     font-size: 12px;
 }
 .etoile i
@@ -357,9 +368,43 @@ aside i
 #activités
 {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
     
 }
+
+#bloc_activite
+{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2px;
+    width: 50%;
+    justify-content: center;
+}
+
+
+#bloc_activite a 
+{
+    height: 241px;
+}
+
+#Bloc_activite2
+{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around;
+}
+#Bloc_activite2 a 
+{
+    height: 241px;
+}
+
 
 #activités h3
 {
@@ -372,24 +417,10 @@ aside i
     margin-bottom: 0px;
     margin-left: 60px;
 }
-#bloc_activite2
-{
-    width: 659px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
 
-#bloc_activite
-{
-    width: 659px;
-    margin-top: 20px;
-   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+
+
 
 #Vieux_port
 {
@@ -414,12 +445,15 @@ aside i
 
 #Fort_de_Pomègues
 {
+    
     width: 311px;
     height: 241px;
     border: 1px solid #f2f2f2;
     background-color: white;
     border-radius: 12px;
-    box-shadow:2px 2px 2px  #e2e2e2
+    box-shadow:2px 2px 2px  #e2e2e2;
+    margin-right: 15px;
+    
 }
 .Fort
 {
@@ -429,22 +463,23 @@ aside i
     border-radius: 12px 12px 0px 0px ;
 }
 
+
 #ile_du_frioul
-{
-    position: absolute;
-    width: 306px;
-    height: 170px;
+{ 
+    
+    width: 311px;
+    height: 164px;
     border: 1px solid #f2f2f2;
     background-color: white;
     border-radius: 12px;
-    box-shadow:2px 2px 2px  #e2e2e2;
-    left: 620px;
-    margin-top: 280px;
+    box-shadow: 2px 2px 2px #e2e2e2;
+    margin-top: 49px;
+    margin-left: 319px;;
 }
 
 .ile
 {
-    width: 306px;
+    width: 311px;
     height: 115px;
     object-fit: cover;
     border-radius: 12px 12px 0px 0px ;
@@ -460,6 +495,7 @@ aside i
     border-radius: 12px;
     box-shadow:2px 2px 2px  #e2e2e2 ;
     margin-right: 15px;
+    
     
 }
 
@@ -479,7 +515,8 @@ aside i
     border: 1px solid #f2f2f2;
     background-color: white;
     border-radius: 12px;
-    box-shadow:2px 2px 2px  #e2e2e2
+    box-shadow:2px 2px 2px  #e2e2e2;
+    margin-bottom: 0px;
 }
 
 .notre
@@ -492,20 +529,20 @@ aside i
 
 #Parc_longchamp
 {
-    position:absolute;
-    left: 1280px;
-    margin-top: 230px;
-    width: 311px;
+    width: 307px;
     height: 218px;
     border: 1px solid #f2f2f2;
     background-color: white;
     border-radius: 12px;
-    box-shadow:2px 2px 2px  #e2e2e2
+    box-shadow: 2px 2px 2px #e2e2e2;
+    margin-top: -6px;
+    margin-left: 377px;
+    
 }
 
 .parc
 {
-    width: 311px;
+    width: 307px;
     height: 151px;
     object-fit: cover;
     border-radius: 12px 12px 0px 0px ;
@@ -577,3 +614,4 @@ footer h4
     align-items: flex-start;
     align-content: flex-end
 }
+
