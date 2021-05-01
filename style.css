@@ -389,11 +389,11 @@ aside i
     justify-content: center;
 }
 
-
-#bloc_activite a 
+.lien_Fort
 {
-    height: 241px;
+    height: 243px;
 }
+
 
 #Bloc_activite2
 {
@@ -477,8 +477,14 @@ aside i
     background-color: white;
     border-radius: 12px;
     box-shadow: 2px 2px 2px #e2e2e2;
-    margin-top: 49px;
+    margin-top: -162px;
     margin-left: 319px;;
+}
+
+.lien_frioul
+{
+    height:311px ;
+    height: 115px;
 }
 
 .ile
@@ -539,9 +545,15 @@ aside i
     background-color: white;
     border-radius: 12px;
     box-shadow: 2px 2px 2px #e2e2e2;
-    margin-top: -6px;
-    margin-left: 377px;
+    margin-top: -55px;
+    margin-left: 181px;
     
+}
+
+.lien_Parc_long
+{
+    width: 307px;
+    height: 151px;
 }
 
 .parc
@@ -628,6 +640,8 @@ footer h4
     #bloc_page
     {
         width: 375px;
+        height: 4200px;
+        margin: 0px;
     }
 
   
@@ -651,141 +665,388 @@ footer h4
 
    /* navigation */
 
-.lien_hebergement
-{
-    width: 200px;
-    position:absolute;
-    top: 100px;
-    left: 10px;
-    color: black;
-    text-align: center;
-    border-bottom: 3px solid #f2f2f2;
+    .lien_hebergement
+    {
+        width: 200px;
+        position:absolute;
+        top: 100px;
+        left: 10px;
+        color: black;
+        text-align: center;
+        border-bottom: 3px solid #f2f2f2;
 
-}
+    }
 
- header a:hover
-{
-    color: #0065fc;
-  border-bottom: 3px solid #0065fc;
-}
+     header a:hover
+    {
+        color: #0065fc;
+        border-bottom: 3px solid #0065fc;
+    }
 
-.lien_activité
-{
-    width: 200px;
-    position:absolute;
-    top: 100px;
-    left: 180px ;
-    color: black;
-    text-align: center;
-    border-bottom: 3px solid #f2f2f2;
-}
+    .lien_activité
+    {
+        width: 200px;
+        position:absolute;
+        top: 100px;
+        left: 180px ;
+        color: black;
+        text-align: center;
+        border-bottom: 3px solid #f2f2f2;
+    }
 
-.inscrire
-{
-    position: absolute;
-    font-weight: bold;
-    right: 22px;
-    top:43px
-}
+    .inscrire
+    {
+        position: absolute;
+        font-weight: bold;
+        right: 22px;
+        top:43px
+    }
 
 
 
 /*Recherche */
 
-#Recherche 
-{
-    margin-left: 10px;
-}
+    #Recherche 
+    {
+        margin-left: 10px;
+    }
 
 
-#Recherche h1
-{
-    font-size: 25px;
+    #Recherche h1
+    {
+        font-size: 25px;
    
-}
+    }
  
-form i
-{
-    position: absolute;
-    top: 266px;
+    form i
+    {
+        position: absolute;
+        top: 266px;
     
-}
+    }
 
 
-#search
-{
+    #search
+    {
+    
+        top: 266px;
+    }
+
+    #bouton
+    {
     
     top: 266px;
-}
-
-#bouton
-{
-    
-    top: 266px;
-}
+    }
 
 
-/* Filtre */
+    /* Filtre */
 
-#Filtre 
-{
+    #Filtre 
+    {
     display: flex;
     width: 339px;
     height: 224px;
     margin-left: 10px;
     flex-direction: row;
     flex-wrap: wrap
-}
- #Box_Filtre 
- {
-    display: flex;
-    width: 342px;
-    height: 224px;
-    
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
- }
+    }
 
-#Filtre p 
-{
-    font-size: 15px;
-}
+    #Box_Filtre 
+    {
+        display: flex;
+        width: 342px;
+        height: 124px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-between;
+    }
 
-#Filtre h4
- {
-     margin-top: 20px;
- }
+    #Filtre p 
+    {
+
+        font-size: 15px;
+    }
+
+    #Filtre h4
+    {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
 
 
 
  /* hebergement */
 
 
- #hebermegement {
-    width: 100%;
+ #hebermegement
+ {
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+ }
+
+
+ #logements 
+ {
+    position: absolute;
+    top:1220px;
+    width: 375px;
+    height: 1520px;
+    background-color: white;
+    border-radius: 12px;
+    align-content: flex-start
+    
+    
+}
+
+#titre
+{
+position: absolute;
+top: 0px;
+margin-left: 8px;
+}
+
+
+#hebermegement h4 {
+    position: absolute;
+    height: 20px;
+    top: 1450px;
+    margin-left: 20px;
+}
+
+.Bloc_image {
+    width: 330px;
+    height: 200px;
+    background-color: white;
+    padding: 2px;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px #e2e2e2;
+    margin: 0px;
+}
+
+.image {
+    width: 320px;
+    
+}
+
+
+aside
+{
+    
+    position: absolute;
+    width: 375px;
+    top: 590px;
+    height: 622px;
+    display: flex;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    margin-left: 20px;
+    flex-direction: column;
+    margin: 0px;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    
+}
+
+
+
+#activités {
+    position: absolute;
+    top: 2910px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.Titre_activité {
+    position: absolute;
+    top: 2700px;
+    margin-left: 8px;
+}
+
+#bloc_activite {
     display: flex;
     margin-top: 20px;
     flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin-left: 2px;
+    width: 50%;
+    position: absolute;
+    top: -120px;
+    align-content: center;
 }
 
 
-
-aside 
-{
-    
-    width: 375px;
-    display: flex;
+#ile_du_frioul {
+    width: 311px;
+    height: 164px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
     border-radius: 12px;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
+    box-shadow: 2px 2px 2px #e2e2e2;
+    margin-top: 0px;
+    margin-left: 0px; 
 }
 
 
+#Bloc_activite2 {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 375px;
+    position: absolute;
+    top: 580px;
+    align-content: center;
+}
+
+#Bloc_activite2 a {
+    height: 202px;
+   
+}
+
+#Parc_longchamp {
+    width: 307px;
+    height: 250px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px #e2e2e2;
+    margin-top:0px;
+    margin-left: 0px;
+}
+
+#Vieux_port {
+    width: 330px;
+    height: 190px;
+    
+}
+
+
+#Fort_de_Pomègues
+{
+    width: 330px;
+    height: 190px;
+    margin-top: 40px;
+}
+
+#ile_du_frioul
+{
+    width: 330px;
+    height: 190px;
+    margin-top: 40px;
+}
+#Parc_National
+{
+    width: 330px;
+    height: 190px;
+    margin-top: 0px;
+}
+
+#Notre_Dame
+{
+    width: 330px;
+    height: 190px;
+    margin-top:30px ;
+}
+
+#Parc_longchamp
+{
+    width: 330px;
+    height: 190px;
+    margin-top: 60px;
+}
+
+
+.Port
+{
+    width: 330px;
+    height: 133px;
+}
+.Fort
+{
+    width: 330px;
+    height: 133px;
+}
+.ile
+{
+    width: 330px;
+    height: 133px;
+}
+.Parc
+{
+    width: 330px;
+    height: 133px;
+}
+.notre
+{
+    width: 330px;
+    height: 133px;
+}
+.parc
+{
+    width: 330px;
+    height: 133px;
+}
+
+/*Footer*/
+
+footer 
+{
+    display: flex;
+    /* background-color: #f2f2f2; */
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    width: 375px;
+}
+
+
+#A_propos 
+{
+    width: 237px;
+    height: 139;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+
+#Nos_hebergemtns 
+{
+    width: 237px;
+    height: 139;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: center;
+}
+
+
+#Assistance 
+{
+    width: auto;
+    height: 139;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-end;
+}
 
 
   }
