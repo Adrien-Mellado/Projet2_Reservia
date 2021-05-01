@@ -721,7 +721,7 @@ footer h4
     form i
     {
         position: absolute;
-        top: 266px;
+        top: 273px;
     
     }
 
@@ -729,13 +729,13 @@ footer h4
     #search
     {
     
-        top: 266px;
+        top: 273px;
     }
 
     #bouton
     {
     
-    top: 266px;
+    top: 271px;
     }
 
 
@@ -834,27 +834,30 @@ margin-left: 8px;
     
 }
 
+/* asidde */
 
 aside
 {
     
     position: absolute;
-    width: 375px;
+    width: 385px;
     top: 590px;
     height: 622px;
     display: flex;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 12px;
-    margin-left: 20px;
     flex-direction: column;
     margin: 0px;
     flex-wrap: nowrap;
     align-items: flex-start;
+    padding-left: 12px;
     
 }
 
 
+
+/* Partie Activité */
 
 #activités {
     position: absolute;
@@ -914,6 +917,9 @@ aside
    
 }
 
+
+/* Bloc images */ 
+
 #Parc_longchamp {
     width: 307px;
     height: 250px;
@@ -967,6 +973,7 @@ aside
 }
 
 
+/* Images */
 .Port
 {
     width: 330px;
