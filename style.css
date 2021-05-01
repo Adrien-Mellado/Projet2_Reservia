@@ -1060,6 +1060,96 @@ footer
   
 
 
+/***********************************
+        VERSION TABLETTE 
+ **********************************/
+
+ @media (max-width: 768px) {
+
+#bloc_page
+{
+    width: 768px;
+   
+}
+
+#Filtre {
+    width: 768px;
+    height: 120px;
+    margin-left: 40px;
+}
 
 
-  
+#Box_Filtre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hebermegement {
+    width: 768px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
+#logements {
+    display: flex;
+    width: 768px;
+    height: 831px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Bloc_image {
+    margin-bottom: 0px;
+}
+
+#titre {
+    position: absolute;
+    top: 309px;
+    margin-left: 40px;
+}
+
+#hebermegement h4 {
+    position: absolute;
+    height: 20px;
+    top: 1100px;
+    margin-left: 20px;
+}
+
+
+aside {
+    width: 768px;
+    height: 622px;
+    display: flex;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-left: 0px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+
+aside h1 {
+    margin-right: 20px;
+    margin-left: 95px;
+    
+}
+
+}
