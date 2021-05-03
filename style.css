@@ -404,10 +404,10 @@ aside i
     width: 50%;
     justify-content: space-around;
 }
-#Bloc_activite2 a 
+/*#Bloc_activite2 a 
 {
     height: 241px;
-}
+}*/
 
 
 #activités h3
@@ -477,7 +477,7 @@ aside i
     background-color: white;
     border-radius: 12px;
     box-shadow: 2px 2px 2px #e2e2e2;
-    margin-top: -162px;
+    margin-top: -182px;
     margin-left: 319px;;
 }
 
@@ -545,7 +545,7 @@ aside i
     background-color: white;
     border-radius: 12px;
     box-shadow: 2px 2px 2px #e2e2e2;
-    margin-top: -55px;
+    margin-top: -215px;
     margin-left: 181px;
     
 }
@@ -644,6 +644,10 @@ footer h4
         margin: 0px;
     }
 
+    body
+    {
+        margin: 0px;
+    }
   
 
 
@@ -1063,93 +1067,216 @@ footer
 /***********************************
         VERSION TABLETTE 
  **********************************/
-/*
- @media (max-width: 768px) {
 
-#bloc_page
-{
-    width: 768px;
-   
-}
+ @media screen and (max-width:768px) and (min-width:376px){
 
-#Filtre {
-    width: 768px;
-    height: 120px;
-    margin-left: 40px;
-}
+    #bloc_page {
+        display: flex;
+        margin: 0px;
+        width: auto;
+        height: 2800px;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
-#Box_Filtre {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: flex-end;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: center;
-}
+    body
+    {
+        margin: auto;
+    }
+
+    /* HEADER */
+
+    #titre_principal
+    {
+        
+        width: 768px;
+
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        font-size: 20px;
+        
+    }
+
+    .logo_Reservia
+    {
+        height: 60px;
+    }
+
+    #logo
+    {
+        margin-left: 20px;
+    }
+
+    /* Recherche */
+
+    #Recherche h1 {
+         font-size: 25px; 
+         text-align: center;
+    }
 
 
-#hebermegement {
-    width: 768px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    flex-direction: column;
-}
+    #bouton {
+        
+         top:176px;
+       
+
+    }
+
+    form i {
+        
+        top: 174px;
+        
+    }
+
+    #Recherche {
+        margin-left: 0px;
+    }
+
+    /* Filtre */
+
+    #Filtre {
+        width: 768px;
+        height: 120px;
+        margin-left: 130px;
+    }
+
+    #Box_Filtre {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+
+    #Box_Filtre a {
+        border: 1px solid #f2f2f2;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 1px 12px 1px 0px;
+        border-radius: 360px;
+    }
 
 
-#logements {
-    display: flex;
-    width: 768px;
-    height: 831px;
-    background-color: #f2f2f2;
-    border-radius: 12px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-around;
-    align-items: center;
-    justify-content: space-evenly;
-}
+    /* Hebergement */
 
-.Bloc_image {
-    margin-bottom: 0px;
-}
+    #hebermegement {
+        width: 768px;
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 8px;
+    }
 
-#titre {
-    position: absolute;
-    top: 309px;
-    margin-left: 40px;
-}
+    #logements {
+        display: flex;
+        flex-direction: row;
+        width: 768px;
+        height: 742px;
+        background-color: #f2f2f2;
+        border-radius: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        margin-top: 60px;
+    }
 
-#hebermegement h4 {
-    position: absolute;
-    height: 20px;
-    top: 1100px;
-    margin-left: 20px;
-}
+    #titre {
+        position: absolute;
+        top: 341px;
+        margin-left: 0px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    #hebermegement h4 {
+        position: absolute;
+        height: 20px;
+        top: 1090px;
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    aside {
+        width: 768px;
+        height: 622px;
+        display: flex;
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 12px;
+        margin-left: 0px; 
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    aside h1 {
+        margin-right: 20px;
+        font-size: 40px;
+        margin: 10px;
+    }
 
 
-aside {
-    width: 768px;
-    height: 622px;
-    display: flex;
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 12px;
-    margin-top: 10px;
-    margin-left: 0px;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-}
 
+    #activités {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 768px;
+    }
 
-aside h1 {
-    margin-right: 20px;
-    margin-left: 95px;
+    .lien_Parc_nat
+    {
+        height: 453px;
+    }
     
-}
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #f2f2f2;
+        margin-top: 50px;
+        width: 768px;
+    }
+
+    #Bloc_activite2 {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #Notre_Dame
+    {
+        margin-top: 10px;
+    }
+
+    
+    #Parc_longchamp {
+        
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+
+    #ile_du_frioul {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #Fort_de_Pomègues {
+        margin-top: 10px;
+    }
 
 }
