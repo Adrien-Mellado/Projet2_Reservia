@@ -362,7 +362,7 @@ aside i
     margin-left: 0px;
 }
 
-#etoile_gris
+.etoile_gris
 {
     color: #7070709d;
 }
@@ -1068,9 +1068,11 @@ footer
         VERSION TABLETTE 
  **********************************/
 
- @media screen and (max-width:768px) and (min-width:376px){
+ @media screen and (max-width:768px) and (min-width:376px)
+{
 
-    #bloc_page {
+    #bloc_page 
+    {
         display: flex;
         margin: 0px;
         width: auto;
@@ -1095,7 +1097,8 @@ footer
         
     }
 
-    nav {
+    nav 
+    {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
