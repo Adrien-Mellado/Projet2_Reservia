@@ -82,13 +82,13 @@ nav a:hover
 
 /*Recherche */
 
-#Recherche 
+#recherche 
 {
     margin-left: 60px;
 }
 
 
-#Recherche h1
+#recherche h1
 {
     font-size: 18px;
    
@@ -131,13 +131,13 @@ form i
 
 /* Filtre */
 
-#Filtre 
+#filtre 
 {
     width: 941px;
     height: 120px;
     margin-left: 60px;
 }
- #Box_Filtre 
+ #box_filtre 
  {
      display: flex;
      flex-direction: row;
@@ -148,7 +148,7 @@ form i
      margin-top: 20px;
  }
 
- #Box_Filtre a 
+ #box_filtre a 
  {
      border: 1px solid #f2f2f2;
      text-decoration: none;
@@ -157,12 +157,12 @@ form i
      padding: 1px 20px 1px 0px;
      border-radius: 360px;
  }
- #Box_Filtre a:hover
+ #box_filtre a:hover
  {
      color: #0065fc;
  }
 
- #Box_Filtre i
+ #box_filtre i
  {
     margin-right: 20px;
     background-color: #0065fc27;
@@ -183,7 +183,7 @@ form i
 
 
 /* hebergements */ 
-#hebermegement
+#hebergement
 {
     width: auto;
     display: flex;
@@ -191,7 +191,7 @@ form i
     margin-top: 20px;
 }
 
-#hebermegement a
+#hebergement a
 {
     width: 285px;
     height: 236px;
@@ -213,7 +213,7 @@ form i
 
 
 
-.Bloc_image
+.bloc_image
 {
     
     width: 249px;
@@ -226,13 +226,13 @@ form i
     margin: 10px 10px 20px 20px;
 }
 
-.Bloc_image p
+.bloc_image p
 {
     margin-top: 1px;
     margin-left: 6px;
     margin-bottom: 0px;
 }
-.Bloc_image h3
+.bloc_image h3
 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -250,7 +250,7 @@ form i
 }
 
 
-#hebermegement h4
+#hebergement h4
 {
     position: absolute;
     height: 20px;
@@ -298,7 +298,7 @@ form i
     align-items: center;
 }
 
-.Bloc_populaire
+.bloc_populaire
 {
     display: flex;
     width: 347px;
@@ -311,8 +311,6 @@ form i
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-  
-    
 }
 
 .image_populaire
@@ -324,7 +322,7 @@ form i
     border-radius: 20px 0px 0px 20px;
 }
 
-#Prix_populaire
+.prix_populaire
 {
    
     display: flex;
@@ -362,18 +360,19 @@ aside i
     margin-left: 0px;
 }
 
-#etoile_gris
+.etoile_gris
 {
     color: #7070709d;
 }
 
 /* Activité */
 
-#activités
+#activites
 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    height: 457px;
     
     
 }
@@ -395,7 +394,7 @@ aside i
 }
 
 
-#Bloc_activite2
+#bloc_activite2
 {
     display: flex;
     margin-top: 20px;
@@ -410,12 +409,12 @@ aside i
 }*/
 
 
-#activités h3
+#activites h3
 {
     margin-left: 20px;
 }
 
-.Titre_activité
+.titre_activite
 {
     margin-top: 40px;
     margin-bottom: 0px;
@@ -426,7 +425,7 @@ aside i
 
 
 
-#Vieux_port
+#vieux_port
 {
     width: 310px;
     height: 451px;
@@ -439,7 +438,7 @@ aside i
     
 }
 
-.Port
+.port
 {
     width: 310px;
     height: 390px;
@@ -447,7 +446,7 @@ aside i
     border-radius: 12px 12px 0px 0px ;
 }
 
-#Fort_de_Pomègues
+#fort_de_pomègues
 {
     
     width: 311px;
@@ -459,7 +458,7 @@ aside i
     margin-right: 15px;
     
 }
-.Fort
+.fort
 {
     width: 311px;
     height: 181px;
@@ -495,7 +494,7 @@ aside i
     border-radius: 12px 12px 0px 0px ;
 }
 
-#Parc_National
+#parc_national
 {
     
     width: 310px;
@@ -509,7 +508,7 @@ aside i
     
 }
 
-.Parc
+.parc
 {
     width: 310px;
     height: 390px;
@@ -517,7 +516,7 @@ aside i
     border-radius: 12px 12px 0px 0px ;
 }
 
-#Notre_Dame
+#notre_dame
 {
     
     width: 307px;
@@ -537,7 +536,7 @@ aside i
     border-radius: 12px 12px 0px 0px ;
 }
 
-#Parc_longchamp
+#parc_longchamp
 {
     width: 307px;
     height: 218px;
@@ -550,13 +549,13 @@ aside i
     
 }
 
-.lien_Parc_long
+.lien_parc_long
 {
     width: 307px;
     height: 151px;
 }
 
-.parc
+.parc_long
 {
     width: 307px;
     height: 151px;
@@ -597,7 +596,7 @@ footer h4
     margin-bottom: 0px;
 }
 
-#A_propos
+#a_propos
 {
     width: 237px;
     height: 139;
@@ -608,7 +607,7 @@ footer h4
     align-items: flex-start;
 }
 
-#Nos_hebergemtns
+#nos_hebergemtns
 {
     width: 237px;
     height: 139;
@@ -620,7 +619,7 @@ footer h4
     
 }
 
-#Assistance
+#assistance
 {
     width: 237px;
     height: 139;
