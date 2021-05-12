@@ -313,9 +313,9 @@ form i
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 12px;
-    margin-left: 20px;
+    margin-left: 60px;
     flex-direction: column;
-    flex-wrap: nowrap;
+    padding: 16px;
 }
 
 .bloc_populaire
@@ -331,10 +331,7 @@ form i
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
-    
-    
-  
-    
+    margin-right: 120px;
 }
 
 .image_populaire
@@ -592,7 +589,6 @@ footer h4
 #a_propos
 {
     width: 237px;
-    height: 139px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -603,7 +599,6 @@ footer h4
 #nos_hebergemtns
 {
     width: 237px;
-    height: 139px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -614,8 +609,7 @@ footer h4
 
 #assistance
 {
-    width: 237px;
-    height: 139px;
+    width: 237px;  
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1114,11 +1108,9 @@ footer
         VERSION TABLETTE 
  **********************************/
 
- @media screen and (max-width:768px) and (min-width:376px)
-{
+ @media screen and (max-width:768px) and (min-width:376px){
 
-    #bloc_page 
-    {
+    #bloc_page {
         display: flex;
         margin: 0px;
         width: auto;
@@ -1143,8 +1135,7 @@ footer
         
     }
 
-    nav 
-    {
+    nav {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
