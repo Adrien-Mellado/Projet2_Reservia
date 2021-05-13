@@ -211,179 +211,177 @@ form i
 
 #hebergement
 {
-    width: 1440px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    width: 879px;
+    height: 621px;
+    border-radius: 20px;
     margin-left: 60px;
-    margin-top: 20px;
 }
 
-#hebergement a
+#hebergement h3
 {
-    width: 285px;
-    height: 236px;
+    padding-left: 23px ;
+    margin-bottom: 0px;
+}
+
+#hebergement h4
+{
+    padding-left: 23px ;
+    margin-top: 0px;
 }
 
 #logement
 {
-    display: flex;
-    flex-direction: row;
-    width: 881px;
-    height: 633px;
-    background-color: #f2f2f2;
-    border-radius: 12px;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
     
+    display: flex;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
 }
-
 
 
 .bloc_image
 {
-    
-    width: 249px;
-    height: 200px;
-    background-color: white;
-    padding: 2px;
+    background-color: #ffffff;
+    width: 246px;
+    height: 199px;
+    border-radius: 18px;
     border: 1px solid #f2f2f2;
-    border-radius: 12px;
-    box-shadow: 2px 2px 2px  #e2e2e2;
-    margin: 10px 10px 20px 20px;
+    margin-bottom: 31px;
 }
-
-.bloc_image p
-{
-    margin-top: 1px;
-    margin-left: 6px;
-    margin-bottom: 0px;
-}
-.bloc_image h3
-{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 6px;
-}
-
 
 .image
 {
-    width: 230px;
-    height: 112px; 
+    width: 237px;
+    height: 114px;
     object-fit: cover;
-    padding: 9px;
-    border-radius: 20px 20px 0px 0px ;
+    border-radius: 18px 18px 0px 0px;
+    padding: 5px;
 }
 
 
-#hebergement h4
+#logement h3 
 {
-   margin-left: 30px;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 16px ;
 }
 
-.etoile_hebergement
+
+#logement p
 {
-    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    padding-left: 16px;
+    margin-top: 6px;
+}
+
+.etoile_hebergement 
+{
+    padding-left: 16px;
+    font-size: 15px;
+}
+
+#logement i
+{
+    margin-top:6px ;
     color: #0065fc;
-    margin-left:0px ;
-    font-size: 12px;
-    padding-left: 5px;
-    margin-top: 5px;
+    font-size: 15px;
 }
-.etoile i
-{
-    margin-left: 0px;
-}
-
-#titre
-{
-    position: absolute;
-    top: 360px;
-    left: 310px;
-    
-}
-
 
 /* plus populaire */
 
- aside 
+
+
+
+
+#bloc_asside
 {
-    height: 600px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 630px;
+    width: 425px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 12px;
-    margin-left: 60px;
-    flex-direction: column;
-    padding: 16px;
+    margin-left: 40px;
+
+}
+
+#bloc_asside h1
+{
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+
+#bloc_asside h1 i
+{
+    margin-left: 120px;
 }
 
 .bloc_populaire
 {
     display: flex;
-    width: 347px;
-    height: 147px;
-    border: 1px solid #f2f2f2;
-    background-color: white;
-    margin-top: 14px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px  #e2e2e2;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: flex-start;
-    margin-right: 120px;
+    width: 342px;
+    height: 143px;
+    border-radius: 18px;
+    background-color: #ffffff;
+}
+
+.bloc_populaire h5
+{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.bloc_populaire p
+{
+    margin-top: 3px;
 }
 
 .image_populaire
 {
     width: 126px;
-    height: 136px;
+    height: 133px;
     object-fit: cover;
-    padding: 7px ;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 18px 0px 0px 18px;
+    padding: 5px;
 }
 
-.prix_populaire
+#bloc_text
 {
-   
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-top: 0px;
-}
-
-aside h3
-{
-    margin-left: 4px;
-    margin-bottom: 0px;
-}
-
-aside h1
-{
-    margin-right:20px;
-}
-
-aside i
-{
-    margin-left: 80px;
-
+    flex-wrap: wrap;
+    align-items: center;
+    width: 143px;
+    height: 61px;
 }
 
 .etoile
 {
+    display: flex;
     color: #0065fc;
-    font-size: 12px;
-}
-.etoile i
-{
-    margin-left: 0px;
+    font-size: 13px;
+    margin-top: 15px ;
 }
 
-.etoile_gris
-{
-    color: #7070709d;
-}
+
 
 
 /* Activité */
