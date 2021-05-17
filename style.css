@@ -711,7 +711,7 @@ footer h4
     form i
     {
         position: absolute;
-        top: 275px;
+        top: 274px;
     
     }
 
@@ -719,7 +719,7 @@ footer h4
     #search
     {
         
-        top: 273px;
+        top: 274px;
     }
 
     #bouton
@@ -812,7 +812,7 @@ footer h4
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width:368px;
+    width:375px;
     height: auto;
     margin-left: 0px;
     background-color: #ffffff;
@@ -1014,7 +1014,7 @@ aside
         background-color: #f2f2f2;
         margin-top: 40px;
         flex-wrap: nowrap;
-        width: 359px;
+        width: 375px;
     
     }
 
