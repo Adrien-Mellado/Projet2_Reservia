@@ -826,6 +826,12 @@ footer h4
        
     }
 
+    #section_filtre
+    {
+        width: 375px;
+        height: auto;
+    }
+
 /* Hebergement */
 
 #hebergement
