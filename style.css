@@ -4,6 +4,7 @@ body
 {
     font-family: 'Raleway', sans-serif;
     color: #181818;
+    
 }
 
 #bloc_page
@@ -46,6 +47,7 @@ nav
     flex-direction:row;
     justify-content: flex-end;
     font-size: 12px;
+   
     
     
     
@@ -65,6 +67,7 @@ ul
 nav li 
 {
     margin-right: 15px;
+    
    
 }
 nav a 
@@ -73,7 +76,7 @@ nav a
     color: black;
     padding-bottom: 3px;
     text-decoration: none;
-    
+   
     
 
 }
@@ -83,8 +86,17 @@ nav a:hover
     color: #0065fc;
     border-top: 3px solid #0065fc;
     
+   
+    
+    
 }
 
+
+.inscrire
+{
+    color: #0065fc;
+    font-weight:bold ;
+}
 
 /*Recherche */
 
@@ -294,8 +306,18 @@ form i
 #logement i
 {
     margin-top:6px ;
-    color: #0065fc;
     font-size: 15px;
+}
+
+
+.blue
+{
+    color: #0065fc;
+}
+
+.grey
+{
+    color: #7070709d;
 }
 
 /* plus populaire */
@@ -376,7 +398,6 @@ form i
 .etoile
 {
     display: flex;
-    color: #0065fc;
     font-size: 13px;
     margin-top: 15px ;
 }
@@ -556,10 +577,9 @@ form i
 footer 
 {
     display: flex;
-    background-color: #f2f2f2;
+    flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     background-color: #f2f2f2;
     margin-top: 50px;
     
@@ -592,6 +612,8 @@ footer h4
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: flex-start;
+    margin-right: 228px;
+    padding-left:60px ;
 }
 
 #nos_hebergemtns
@@ -602,6 +624,7 @@ footer h4
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: center;
+    margin-right: 228px;
     
 }
 
@@ -1067,9 +1090,166 @@ aside
 
  @media screen and (max-width:768px) and (min-width:376px){
 
-    footer
+    #bloc_page
     {
-    width: auto;
+        width: 768px;
+        height: auto;
     }
  
+    /*header */
+
+   nav ul
+    {
+        margin-right: 10px;
+    }
+
+    #logo
+    {
+        margin-left: 10px;
+    }
+
+    
+    /* recherche */ 
+
+    #recherche
+    {
+        margin-left: 10px;
+    }
+
+
+    /* filtre */
+
+    #section_filtre
+    {
+        width: 768px;
+    }
+
+    #filtre
+    {
+        width: 768px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+
+    #box_filtre
+    {
+        width: 768px;
+        height: auto;
+    }
+
+    #box_filtre ul 
+    {
+        list-style-type: none;
+        display: flex;
+        margin-right: 70px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    
+    #box_filtre li
+    {
+        margin-bottom: 5px;
+    }
+
+    /* hebergement */ 
+
+    #hebergement
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 768px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    #logement
+    {
+        width: 749px;
+        height: auto;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    aside
+    {
+        width: 427px;
+    }
+
+    #bloc_asside
+    {
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 630px;
+    width: 749px;
+    margin-left: 0px;
+    }
+
+
+    #bloc_activite {
+        display: flex;
+        width: 749px;
+        height: 900px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        align-items: center;
+    }
+
+    #fort_de_pomegues
+    {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #ile_du_frioul
+    {
+        margin-left: 0px;
+        margin-top: 90px;
+    }
+
+    #notre_dame
+    {
+        margin-top: 10px;
+    }
+
+
+    footer {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        background-color: #f2f2f2;
+        margin-top: 50px;
+    }
+
+    #a_propos {
+        
+        padding-left: 10px;
+    }
+
+    #nos_hebergemtns {
+        width: 237px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding-left: 10px;
+    }
+
+    #assistance {
+        width: 237px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding-left: 10px;
+    }
+
  }
