@@ -786,7 +786,7 @@ footer h4
     #filtre 
     {
         display: flex;
-        width: 100%;
+        width: auto;
         height: 229px;
         margin-left: 20px;
         flex-direction: row;
@@ -821,7 +821,7 @@ footer h4
         margin-right: 70px;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 375px;
+        /*width: 375px;*/
         justify-content: flex-start;
         padding-left: 0px;
 
@@ -852,6 +852,10 @@ footer h4
         height: auto;
     }
 
+    #box_filtre a 
+    {
+        font-size: 13px;
+    }
 /* Hebergement */
 
 #hebergement
@@ -920,7 +924,7 @@ aside
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0px;
-    width: 368px;
+    width:auto;
     height:583px;
 
 }
