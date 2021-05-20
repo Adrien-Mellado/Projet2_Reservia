@@ -342,7 +342,7 @@ form i
 
 }
 
-#bloc_asside h1
+#bloc_asside h2
 {
     margin-right: 10px;
     font-size: 20px;
@@ -350,7 +350,7 @@ form i
 }
 
 
-#bloc_asside h1 i
+#bloc_asside h2 i
 {
     margin-left: 120px;
 }
@@ -646,7 +646,8 @@ footer h4
 
     body
     {
-        width: 375px;
+        width:100% ;
+        margin: 0px;
         
     }
 
@@ -655,7 +656,7 @@ footer h4
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 375px;
+        width: 100%;
         height: auto;
         margin: 0px;
     }
@@ -677,7 +678,7 @@ footer h4
     header
     {
       height: 134px;
-      width: 375px;
+      width: 100%;
     }
 
 
@@ -716,16 +717,27 @@ footer h4
 
     .inscrire
     {
-        position: absolute;
+        display: flex;
         font-weight: bold;
-        right: 22px;
-        top:43px;
+        
         color:#0065fc;
     }
 
 
+    nav ul 
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    justify-content: flex-end;
+    }
 
 /*Recherche */
+
+    #section_recherche
+    {
+        width: 100%;
+    }
 
     #recherche 
     {
@@ -772,7 +784,7 @@ footer h4
     #filtre 
     {
         display: flex;
-        width: 375px;
+        width: 100%;
         height: 229px;
         margin-left: 20px;
         flex-direction: row;
@@ -785,7 +797,7 @@ footer h4
         flex-direction: column;
         flex-wrap: wrap;
         align-items: flex-start;
-        width: 375px;
+        width: 100%;
     }
 
     #filtre p 
@@ -800,7 +812,7 @@ footer h4
         margin-top: 20px;
     }
 
-    ul 
+   #filtre  ul 
     {
         list-style-type: none;
         display: flex;
@@ -834,7 +846,7 @@ footer h4
 
     #section_filtre
     {
-        width: 375px;
+        width: 100%;
         height: auto;
     }
 
@@ -847,7 +859,7 @@ footer h4
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width:375px;
+    width:100%;
     height: auto;
     margin-left: 0px;
     background-color: #ffffff;
@@ -893,7 +905,7 @@ footer h4
 
 aside 
 {
-    width: 373px;
+    width: 100%;
     height:583px;
 
 }
@@ -1049,7 +1061,7 @@ aside
         background-color: #f2f2f2;
         margin-top: 40px;
         flex-wrap: nowrap;
-        width: 375px;
+        width: 100%;
     
     }
 
