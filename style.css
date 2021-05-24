@@ -1113,6 +1113,9 @@ aside
 
 }
 
+
+
+
 /***********************************
         VERSION TABLETTE 
  **********************************/
@@ -1283,6 +1286,11 @@ aside
 
  }
 
+
+
+
+
+
  @media screen and (min-width: 668px) and (max-width:777px){
 
 /*Recherche */
@@ -1335,6 +1343,11 @@ form i
 
 
  }
+
+
+
+
+
 
 
  @media screen and (min-width: 200px) and (max-width:371px){
@@ -1631,7 +1644,7 @@ aside
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 375px;
+    /*width: 375px;*/
     height: 1336px;
     margin-left: 0px;
 
