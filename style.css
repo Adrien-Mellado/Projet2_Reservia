@@ -7,12 +7,6 @@ body
     
 }
 
-#bloc_page
-{
-    width: 100%;
-    margin: auto;
-}
-
 h1
 {
     color: black;
@@ -47,11 +41,6 @@ nav
     flex-direction:row;
     justify-content: flex-end;
     font-size: 12px;
-   
-    
-    
-    
-    
 }
 
 ul 
@@ -60,35 +49,26 @@ ul
     display: flex;
     justify-content: flex-end;
     margin-right: 70px
-    
 }
 
 
 nav li 
 {
     margin-right: 15px;
-    
-   
 }
+
 nav a 
 {
     font-size: 20.8px;
     color: black;
     padding-bottom: 3px;
     text-decoration: none;
-   
-    
-
 }
 
 nav a:hover
 {
     color: #0065fc;
     border-top: 3px solid #0065fc;
-    
-   
-    
-    
 }
 
 
@@ -97,6 +77,7 @@ nav a:hover
     color: #0065fc;
     font-weight:bold ;
 }
+
 
 /*Recherche */
 
@@ -157,6 +138,8 @@ form i
 {
     visibility:hidden;
 }
+
+
 
 /* Filtre */
 
@@ -228,7 +211,7 @@ form i
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #f2f2f2;
-    width: 60%;
+    width: 990px;
     height: 621px;
     border-radius: 20px;
     margin-left: 60px;
@@ -322,7 +305,10 @@ form i
 
 /* plus populaire */
 
-
+aside
+{
+    width: auto;
+}
 
 
 
@@ -338,7 +324,7 @@ form i
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 12px;
-    margin-left: 40px;
+    margin-left: 14px;
 
 }
 
@@ -406,6 +392,11 @@ form i
 
 
 /* Activité */
+
+#activite
+{
+    width: auto;
+}
 
 #bloc_activite
 {
@@ -503,22 +494,37 @@ form i
 
 .lien_fort
 {
+    width: 0px;
     height: 187px;
 }
 
 .lien_frioul
 {
+    width: 0px;
     height: 166px;
 }
 
 .lien_parc_long
 {
+    width: 0px;
     height: 211px;
 }
 
+.lien_parc_nat
+{
+    width: 0px;
+}
+
+
 .lien_notre
 {
+    width: 0px;
     height: 211px;
+}
+
+.lien_vieux_port
+{
+    width: 0px;
 }
 
 /* image activité */
@@ -643,7 +649,7 @@ footer h4
         VERSION MOBILE 
  **********************************/
  
- @media screen and (min-width: 375px) and (max-width:777px) {
+ @media screen and (min-width: 300px) and (max-width:777px) {
 
     body
     {
@@ -652,16 +658,7 @@ footer h4
         
     }
 
-    #bloc_page
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        margin: 0px;
-    }
-
+   
     
   
 
@@ -870,7 +867,7 @@ footer h4
     height: auto;
     margin-left: 0px;
     background-color: #ffffff;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 
 #hebergement h3 
@@ -891,7 +888,7 @@ footer h4
     order: 2;
     display: flex;
     background-color: #ffffff;
-    height: 1362px;
+    /*height: 1362px;*/
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -934,7 +931,7 @@ aside
 #bloc_activite 
 {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: space-around;
     width: 375px;
     height: 1336px;
@@ -1120,7 +1117,7 @@ aside
         VERSION TABLETTE 
  **********************************/
 
- @media screen and (min-width:779px) and (max-width:1255px) {
+ @media screen and (min-width:778px) and (max-width:1442px) {
 
     #bloc_page
     {
@@ -1350,7 +1347,7 @@ form i
 
 
 
- @media screen and (min-width: 200px) and (max-width:371px){
+ @media screen and (min-width: 371px) and (max-width:371px){
 
     body
     {
@@ -1820,3 +1817,7 @@ aside
 
 
  }
+
+
+
+ 
