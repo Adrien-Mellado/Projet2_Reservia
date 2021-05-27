@@ -310,7 +310,10 @@ aside
     width: auto;
 }
 
-
+aside h2 i
+{
+    margin-left: 34px;
+}
 
 #bloc_asside
 {
@@ -396,6 +399,7 @@ aside
 #activite
 {
     width: auto;
+   
 }
 
 #bloc_activite
@@ -935,7 +939,7 @@ aside
     justify-content: space-around;
     /*width: 375px;*/
     height: 1336px;
-    margin-left: 25px;
+    margin-left: 21px;
 
 }
 
@@ -1222,6 +1226,7 @@ aside
     width: 749px;
     margin-left: 0px;
     }
+
 
 
     #bloc_activite {
