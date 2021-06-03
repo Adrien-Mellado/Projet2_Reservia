@@ -25,7 +25,7 @@ a
 {
     display: flex;
     float: left;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 header
 {
@@ -83,7 +83,7 @@ nav a:hover
 
 #recherche 
 {
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 
@@ -147,7 +147,7 @@ form i
 {
    
     height: 120px;
-    margin-left: 60px;
+    margin-left: 20px;
     margin-top: 20px;
 }
  #box_filtre 
@@ -214,7 +214,7 @@ form i
     width: 990px;
     height: 621px;
     border-radius: 20px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 #hebergement h3
@@ -393,37 +393,44 @@ aside h2 i
 
 
 
-
 /* Activité */
 
 #activite
 {
-    width: auto;
-   
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 #bloc_activite
 {
+    background-color: #FFFFFF;
+    border-radius: 20px;
     display: flex;
-   
-    height: 450px;
-    flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 60px;
+    /*margin: 0px 0px 20px 0px;*/
 }
 
-#bloc_activite h3 
+#vieux
 {
-    padding-left: 10px;
-    padding-bottom: 20px;
-    
+    margin-right: 40px;
 }
 
-.titre_activite
+#fort_frioul
 {
-    margin-left: 60px;
+    margin-right: 40px;
 }
 
+#parc_nat
+{
+    margin-right: 40px;
+}
+
+
+
+
+/* Bloc image activite */
 
 #vieux_port
 {
@@ -438,7 +445,6 @@ aside h2 i
 
 #fort_de_pomegues
 {
-    margin-left: -30px;
     height: 235px;
     width: 310px;
     border: 1px solid #f2f2f2;
@@ -449,8 +455,7 @@ aside h2 i
 
 #ile_du_frioul
 {
-    margin-left: -30px;
-    margin-top: 95px;
+   margin-top: 45px;
     height: 166px;
     width: 304px;
     border: 1px solid #f2f2f2;
@@ -461,7 +466,6 @@ aside h2 i
 
 #parc_national
 {
-    margin-left: -40px;
     height: 448px;
     width: 302px;
     border: 1px solid #f2f2f2;
@@ -473,7 +477,6 @@ aside h2 i
 
 #notre_dame
 {
-    margin-left: -50px;
     height: 197px;
     width: 305px;
     border: 1px solid #f2f2f2;
@@ -484,8 +487,7 @@ aside h2 i
 
 #parc_longchamp
 {
-    margin-left: -50px;
-    margin-top: 25px;
+    margin-top: 37px;
     height: 211px;
     width: 304px;
     border: 1px solid #f2f2f2;
@@ -493,43 +495,9 @@ aside h2 i
     background: #fffdfd;
     box-shadow: 3px 2px 2px #e2e2e2;
 }
- 
-/* lien activité */
-
-.lien_fort
-{
-    width: 0px;
-    height: 187px;
-}
-
-.lien_frioul
-{
-    width: 0px;
-    height: 166px;
-}
-
-.lien_parc_long
-{
-    width: 0px;
-    height: 211px;
-}
-
-.lien_parc_nat
-{
-    width: 0px;
-}
 
 
-.lien_notre
-{
-    width: 0px;
-    height: 211px;
-}
 
-.lien_vieux_port
-{
-    width: 0px;
-}
 
 /* image activité */
 
@@ -580,6 +548,30 @@ aside h2 i
     object-fit: cover;
     border-radius: 18px 18px 0px 0px ;
 }
+
+
+/* lien activité */
+
+.lien_fort
+{
+    height: 187px;
+}
+
+.lien_frioul
+{
+    height: 166px;
+}
+
+.lien_parc_long
+{
+    height: 211px;
+}
+
+.lien_notre
+{
+    height: 211px;
+}
+
 
 
 /* Footer */
@@ -649,6 +641,43 @@ footer h4
 }
 
 
+
+@media screen and (min-width:1309px) and (max-width: 1408px) {
+
+
+    body
+    {
+        color:red;
+    }    
+
+
+    #hebergement
+    {
+    
+    width: 881px;
+    
+    }
+
+
+    #vieux
+    {
+        margin-right: 10px;
+    }
+
+    #fort_frioul
+    {
+        margin-right: 10px;
+    }
+
+    #parc_nat
+    {
+        margin-right: 10px;
+    }
+
+}
+
+
+
 /***********************************
         VERSION MOBILE 
  **********************************/
@@ -661,11 +690,6 @@ footer h4
         margin: 0px;
         
     }
-
-   
-    
-  
-
 
     /* header */
 
@@ -1116,145 +1140,52 @@ aside
 
 
 
+@media screen and (min-width:777px) and (max-width: 1309px) {
 
-/***********************************
-        VERSION TABLETTE 
- **********************************/
 
- @media screen and (min-width:778px) and (max-width:1442px) {
-
-    #bloc_page
+    body
     {
-        width: 768px;
-        height: auto;
-    }
- 
-    /*header */
+        color:rgb(90, 1, 255);
+    }    
 
-   nav ul
+
+    #hebergement
+    {
+    
+    width:760px;
+    
+    }
+
+
+
+    /* activite */
+
+    #vieux
     {
         margin-right: 10px;
     }
 
-    #logo
+    #fort_frioul
     {
-        margin-left: 10px;
+        margin-right: 10px;
     }
 
-    
-    /* recherche */ 
-
-    #recherche
+    #parc_nat
     {
-        margin-left: 10px;
+        margin-right: 10px;
     }
 
-
-    /* filtre */
-
-    #section_filtre
-    {
-        width: 768px;
-    }
-
-    #filtre
-    {
-        width: 768px;
-        height: auto;
-        margin-left: 10px;
-    }
-
-
-    #box_filtre
-    {
-        width: 768px;
-        height: auto;
-    }
-
-    #box_filtre ul 
-    {
-        list-style-type: none;
-        display: flex;
-        margin-right: 70px;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    
-    #box_filtre li
-    {
-        margin-bottom: 5px;
-    }
-
-    /* hebergement */ 
-
-    #hebergement
+    #notre_long
     {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        background-color: white;
-        width: 768px;
-        height: auto;
-        margin-left: 10px;
-    }
-
-    #logement
-    {
-        width: 749px;
-        height: auto;
-        margin-left: 0px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    aside
-    {
-        width: 427px;
-    }
-
-    #bloc_asside
-    {
-        display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 630px;
-    width: 749px;
-    margin-left: 0px;
     }
 
 
 
-    #bloc_activite {
-        display: flex;
-        width: 749px;
-        height: 900px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: 0px;
-        align-items: center;
-    }
 
-    #fort_de_pomegues
-    {
-        margin-left: 0px;
-        margin-top: 10px;
-    }
 
-    #ile_du_frioul
-    {
-        margin-left: 0px;
-        margin-top: 90px;
-    }
 
-    #notre_dame
-    {
-        margin-top: 10px;
-    }
+
 
 
     footer {
@@ -1263,565 +1194,46 @@ aside
         flex-direction: column;
         background-color: #f2f2f2;
         margin-top: 50px;
+        align-items: flex-start;
     }
 
+
     #a_propos {
-        
-        padding-left: 10px;
+        width: 237px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-right: 228px;
+        padding-left: 20px;
     }
+
 
     #nos_hebergemtns {
         width: 237px;
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        padding-left: 10px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-right: 228px;
+        padding-left: 20px;
     }
 
     #assistance {
         width: 237px;
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        padding-left: 10px;
-    }
-
- }
-
-
-
-
-
-
- @media screen and (min-width: 668px) and (max-width:777px){
-
-/*Recherche */
-
-#section_recherche
-{
-    width: 100%;
-}
-
-#recherche 
-{
-    margin: 20px;
-}
-
-#recherche h1
-{
-    font-size: 24px;
-}
-
-form i
-{
-    position: absolute;
-    top: 239px;
-
-}
-
-
-#search
-{
-    
-    top: 239px;
-}
-
-#bouton
-{
-
-    display: none;
-
-}
-
-#loup
-{
-    visibility: inherit;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #0065fc;
-    color: #ffffff;
-    top: 239px;
-}
-
-
-
- }
-
-
-
-
-
-
-
- @media screen and (min-width: 371px) and (max-width:371px){
-
-    body
-    {
-        width:100% ;
-        margin: 0px;
-        
-    }
-
-    #bloc_page
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        margin: 0px;
-    }
-
-    
-  
-
-
-    /* header */
-
-    #logo
-    {
-        position: absolute;
-        top: 25px;
-        left: 20px;
-       margin: 0px;
-    }
-
-    header
-    {
-      height: 134px;
-      width: 100%;
-    }
-
-
-   /* navigation */
-
-    .lien_hebergement
-    {
-        width: 180px;
-        position:absolute;
-        top: 100px;
-        left: 10px;
-        color: black;
-        text-align: center;
-        border-bottom: 2px solid #f2f2f2;
-
-    }
-
-     header a:hover
-    {
-        color: #0065fc;
-        border-top:0px ;
-        border-bottom: 2px solid #0065fc;
-    }
-
-    .lien_activité
-    {
-        width: 100px;
-        position:absolute;
-        top: 100px;
-        left: 180px ;
-        color: black;
-        text-align: center;
-        border-bottom: 3px solid #f2f2f2;
-        margin-left: 60px;
-    }
-
-    .inscrire
-    {
-        display: flex;
-        font-weight: bold;
-        
-        color:#0065fc;
-    }
-
-
-    nav ul 
-    {
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 0px;
-    margin-top: 38px;
-    }
-
-/*Recherche */
-
-    #section_recherche
-    {
-        width: 100%;
-    }
-
-    #recherche 
-    {
-        margin: 20px;
-    }
-
-    #recherche h1
-    {
-        font-size: 24px;
-    }
- 
-    form i
-    {
-        position: absolute;
-        top: 266px;
-    
-    }
-
-
-    #search
-    {
-        
-        top: 266px;
-    }
-
-    #bouton
-    {
-    
-        display: none;
-  
-    }
-
-    #loup
-    {
-        visibility: inherit;
-        border-radius: 10px 10px 10px 10px;
-        background-color: #0065fc;
-        color: #ffffff;
-        top: 266px;
-    }
-
-    /* Filtre */
-
-    #filtre 
-    {
-        display: flex;
-        width: auto;
-        height: 229px;
-        margin-left: 20px;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    #box_filtre 
-    {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    #filtre p 
-    {
-
-        font-size: 15px;
-    }
-
-    #filtre h4
-    {
-        margin-bottom: 0px;
-        margin-top: 20px;
-    }
-
-   #filtre  ul 
-    {
-        list-style-type: none;
-        display: flex;
-        margin-right: 70px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        /*width: 375px;*/
-        justify-content: flex-start;
-        padding-left: 0px;
-
-    }
-
-    #box_filtre li
-    {
-        margin-bottom: 10px;
-        margin-left: 0px;
-    }
-
-    #filtre p
-    {
-        margin-top: 6px;
-        width: 330px;
-    }
-
-    p i {
-        margin-right: 8px;
-        padding: 2px 5px 2px 5px;
-
-       
-    }
-
-    #section_filtre
-    {
-        width: 100%;
-        height: auto;
-    }
-
-    #box_filtre a 
-    {
-        font-size: 12px;
-    }
-/* Hebergement */
-
-#hebergement
-{
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width:100%;
-    height: auto;
-    margin-left: 0px;
-    background-color: #ffffff;
-    margin-top: 40px;
-}
-
-#hebergement h3 
-{
-    order: 2;
-    padding-left: 10px;
-    
-}
- 
-#hebergement h4 
-{
-    order:2;
-    padding-left: 10px;
-}
-
-#logement 
-{
-    order: 2;
-    display: flex;
-    background-color: #ffffff;
-    height: 1362px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.bloc_image
-{
-    width: 335px;
-    height: 196px;
-    height: auto;
-}
-
-.image
-{
-    width: 324px;
-    height: 115px;
-}
-
-
-
-aside 
-{
-    width: 100%;
-    height:583px;
-
-}
-
-#bloc_asside 
-{
-    order: 1;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 0px;
-    width:auto;
-    height:583px;
-
-}
-
-
-
-#bloc_activite 
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /*width: 375px;*/
-    height: 1336px;
-    margin-left: 0px;
-
-}
-
-
-#vieux_port
-{
-    
-    width: 333px;
-    height: 189px;
-    
-}
-
-#fort_de_pomegues
-{
-    width: 333px;
-    height: 189px;
-    margin-left: 0px;
-}
-
-#ile_du_frioul
-{
-    width: 333px;
-    height: 189px;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-#parc_national
-{
-    width: 333px;
-    height: 189px;
-    margin-left: 0px;
-    
-}
-
-#notre_dame
-{
-    width: 333px;
-    height: 189px;
-    margin-left: 0px;
-}
-
-#parc_longchamp
-{
-    width: 333px;
-    height: 189px;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-
-    /* image activité */
-
-    .port
-    {
-    width: 333px;
-    height: 131px;
-    }
-
-    .fort
-    {
-        width: 333px;
-        height: 131px;
-    }
-
-    .ile
-    {
-        width: 333px;
-        height: 131px;
-    }
-
-    .parc
-    {
-        width: 333px;
-        height: 131px;
-    }
-
-    .notre
-    {
-     width: 333px;
-    height: 131px;
-    }
-
-    .parc_long
-    {
-        width: 333px;
-        height: 131px;
-    }
-
-
-    /* lien activité */
-
-    .lien_fort
-    {
-        height: 189px;
-    }
-
-    .lien_frioul
-    {
-        height: 189px;
-    }
-
-    .lien_parc_long
-    {
-        height: 189px;
-    }
-
-    .lien_notre
-    {
-        height: 189px;
-    }
-
-
-
-
-
-
-
-
-
-    /*Footer*/
-
-    footer 
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        background-color: #f2f2f2;
-        margin-top: 40px;
-        flex-wrap: nowrap;
-        width: 100%;
-    
-    }
-
-    #a_propos 
-    {
-        width: 237px;
-        height: 139px;
-        display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
         align-content: flex-start;
         align-items: flex-start;
-        padding-left: 10px;
+        margin-right: 228px;
+        padding-left: 20px;
     }
 
+}
 
-    #nos_hebergemtns 
-    {
-        width: 237px;
-        height: 139px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-        align-content: center;
-        padding-left: 10px;
-    }
-
-
-    #assistance 
-    {
-        width: auto;
-        height: 139px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-        align-content: flex-end;
-        padding-left: 10px;
-    }
-
-
- }
 
 
 
