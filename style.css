@@ -679,7 +679,7 @@ footer h4
         VERSION MOBILE 
  **********************************/
  
- @media screen and (min-width: 300px) and (max-width:777px) {
+ @media screen and (min-width: 300px) and (max-width:747px) {
 
     body
     {
@@ -992,7 +992,7 @@ aside
     width: 333px;
     height: 189px;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 25px;
 }
 
 #parc_national
@@ -1007,7 +1007,7 @@ aside
 {
     width: 333px;
     height: 189px;
-    margin-left: -21px;
+    margin-left: -30px;
 }
 
 #parc_longchamp
@@ -1015,7 +1015,7 @@ aside
     width: 333px;
     height: 189px;
     margin-top: 37px;
-    margin-left: -20px;
+    margin-left: -22px;
 }
 
     /* image activité */
@@ -1142,9 +1142,13 @@ aside
 
 }
 
+/*--------------------------
+-----------------------------
+------777px 1309px----------
+-----------------------------
+-----------------------------*/
 
-
-@media screen and (min-width:777px) and (max-width: 1309px) {
+@media screen and (min-width:749px) and (max-width: 1309px) {
 
 
    
