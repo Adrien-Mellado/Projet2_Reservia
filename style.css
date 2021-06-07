@@ -1495,7 +1495,7 @@ aside
  }
 
 
- @media screen and (min-width:320px) and (max-width: 373px) {
+ @media screen and (min-width:320px) and (max-width: 349px) {
 
     form i {
         position: absolute;
@@ -1638,3 +1638,20 @@ aside
         margin-left: -35px;
     }
  }
+
+
+ @media screen and (min-width:350px) and (max-width: 373px) {
+    form i {
+        position: absolute;
+        top: 295px;
+    }  
+
+    #loup {
+        visibility: inherit;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #0065fc;
+        color: #ffffff;
+        top: 295px;
+    }
+
+}
