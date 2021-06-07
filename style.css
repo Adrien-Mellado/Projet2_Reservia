@@ -402,6 +402,11 @@ aside h2 i
     flex-direction: column;
 }
 
+#activite h3
+{
+    padding-left: 10px;
+}
+
 
 #bloc_activite
 {
@@ -679,7 +684,7 @@ footer h4
         VERSION MOBILE 
  **********************************/
  
- @media screen and (min-width: 300px) and (max-width:747px) {
+ @media screen and (min-width: 300px) and (max-width:723px) {
 
     body
     {
@@ -1148,7 +1153,7 @@ aside
 -----------------------------
 -----------------------------*/
 
-@media screen and (min-width:749px) and (max-width: 1309px) {
+@media screen and (min-width:724px) and (max-width: 1309px) {
 
 
    
@@ -1161,6 +1166,9 @@ aside
     
     }
 
+    #box_filtre li {
+        margin-left: 4px;
+    }
 
     #box_filtre {
         display: flex;
@@ -1192,24 +1200,28 @@ aside
 
     #vieux
     {
-        
+        display: contents;
         margin-right: 10px;
     }
 
     #fort_frioul
     {
-        
         margin-right: 10px;
+        display: flex;
+        order: 3;
+        margin-right: 2px;
+        margin-top: 20px;
     }
 
     #parc_nat
     {
        
-        margin-right: 10px;
+        margin-right: 1px;
     }
 
     #notre_long
     {
+        margin-top: 20px;
         display: flex;
     }
 
@@ -1293,11 +1305,12 @@ aside
 
     #bloc_activite {
         display: flex;
-        justify-content: space-around;
         /* width: 375px; */
-        margin-left: 21px;
-        flex-direction: column;
+        margin-left: -12px;
+        flex-direction: row;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 
@@ -1322,7 +1335,7 @@ aside
 {
     width: 333px;
     height: 189px;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 0px;
 }
 
@@ -1330,7 +1343,7 @@ aside
 {
     width: 333px;
     height: 189px;
-    margin-left: 0px;
+    margin-left: 10px;
     
 }
 
@@ -1346,7 +1359,7 @@ aside
     width: 333px;
     height: 189px;
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: 13px;
 }
 
     /* image activité */
@@ -1464,4 +1477,164 @@ aside
 
 
 
- 
+@media screen and (min-width:680px) and (max-width: 723px) {
+
+    form i {
+        position: absolute;
+        top: 238px;
+    }  
+
+    #loup {
+        visibility: inherit;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #0065fc;
+        color: #ffffff;
+        top: 238px;
+    }
+
+ }
+
+
+ @media screen and (min-width:320px) and (max-width: 373px) {
+
+    form i {
+        position: absolute;
+        top: 316px;
+    }  
+
+    #loup {
+        visibility: inherit;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #0065fc;
+        color: #ffffff;
+        top: 316px;
+    }
+
+
+    .parc_long {
+        width: 310px;
+        height: 131px;
+    }
+
+    #parc_longchamp {
+        width: 313px;
+        height: 189px;
+        margin-top: 37px;
+        margin-left: -22px;
+    }
+
+    .notre {
+        width: 313px;
+        height: 131px;
+    }
+
+    #notre_dame {
+        width: 313px;
+        height: 189px;
+        margin-left: -30px;
+    }
+
+    .parc {
+        width: 313px;
+        height: 131px;
+    }
+
+    #parc_national {
+        width: 313px;
+        height: 189px;
+        margin-left: 0px;
+    }
+
+    .ile {
+        width: 313px;
+        height: 131px;
+    }
+
+    #ile_du_frioul {
+        width: 313px;
+        height: 189px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .fort {
+        width: 313px;
+        height: 131px;
+    }
+
+    #fort_de_pomegues {
+        width: 313px;
+        height: 189px;
+        margin-left: 0px;
+    }
+
+    #vieux_port {
+        width: 313px;
+        height: 189px;
+    }
+
+    .port {
+        width: 313px;
+        height: 131px;
+    }
+
+    .image {
+        width: 302px;
+        height: 115px;
+    }
+
+    .bloc_image {
+        width: 313px;
+        height: 196px;
+        height: auto;
+    }
+
+    .bloc_populaire {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 314px;
+        height: 143px;
+        border-radius: 18px;
+        background-color: #ffffff;
+    }
+
+    .lien_activité {
+        width: 100px;
+        position: absolute;
+        top: 100px;
+        left: 162px;
+        color: black;
+        text-align: center;
+        border-bottom: 3px solid #f2f2f2;
+        margin-left: 60px;
+    }
+
+    #bloc_asside {
+        order: 1;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0px;
+        width: 321px;
+        height: 583px;
+        
+    }
+
+    #filtre {
+        display: flex;
+        width: auto;
+        height: 306px;
+        margin-left: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #parc_longchamp {
+        width: 313px;
+        height: 189px;
+        margin-top: 37px;
+        margin-left: -35px;
+    }
+ }
