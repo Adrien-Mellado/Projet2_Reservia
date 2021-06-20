@@ -61,7 +61,7 @@ nav a
 {
     font-size: 20.8px;
     color: black;
-    padding-bottom: 3px;
+    padding-top: 17px;
     text-decoration: none;
 }
 
@@ -402,7 +402,7 @@ aside h2 i
     flex-direction: column;
 }
 
-#activite h3
+ h3
 {
     padding-left: 10px;
 }
@@ -414,7 +414,10 @@ aside h2 i
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
-    /*margin: 0px 0px 20px 0px;*/
+    /* margin: 0px 0px 20px 0px; */
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #vieux
@@ -764,9 +767,10 @@ footer h4
 
 /*Recherche */
 
-    #section_recherche
-    {
+    #section_recherche {
         width: 100%;
+        height: auto;
+        margin-top: 40px;
     }
 
     #recherche 
@@ -782,7 +786,7 @@ footer h4
     form i
     {
         position: absolute;
-        top: 266px;
+        top: 286px;
     
     }
 
@@ -806,7 +810,7 @@ footer h4
         border-radius: 10px 10px 10px 10px;
         background-color: #0065fc;
         color: #ffffff;
-        top: 266px;
+        top: 286px;
     }
 
     /* Filtre */
@@ -874,10 +878,10 @@ footer h4
        
     }
 
-    #section_filtre
-    {
+    #section_filtre {
         width: 100%;
         height: auto;
+        margin-bottom: 20px;
     }
 
     #box_filtre a 
@@ -907,13 +911,11 @@ footer h4
     /*margin-top: 40px;*/
 }
 
-#hebergement h3 
-{
+#hebergement h3 {
     order: 2;
     padding-left: 10px;
-    
+    margin-bottom: 10px;
 }
- 
 #hebergement h4 
 {
     order:2;
@@ -964,16 +966,15 @@ aside
 
 }
 
-
-#bloc_activite 
-{
+#bloc_activite {
+    background-color: #FFFFFF;
+    border-radius: 20px;
     display: flex;
-    /*align-items: center;*/
+    flex-wrap: wrap;
+    /* margin: 0px 0px 20px 0px; */
+    /* width: 100%; */
+    flex-direction: row;
     justify-content: space-around;
-    /*width: 375px;*/
-    height: 1336px;
-    margin-left: 21px;
-
 }
 
 
@@ -985,11 +986,11 @@ aside
     
 }
 
-#fort_de_pomegues
-{
+#fort_de_pomegues {
     width: 333px;
     height: 189px;
     margin-left: 0px;
+    margin-top: 20px;
 }
 
 #ile_du_frioul
@@ -1000,12 +1001,12 @@ aside
     margin-top: 25px;
 }
 
-#parc_national
-{
+#parc_national {
     width: 333px;
     height: 189px;
     margin-left: 0px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #notre_dame
@@ -1153,7 +1154,7 @@ aside
 -----------------------------
 -----------------------------*/
 
-@media screen and (min-width:724px) and (max-width: 1309px) {
+@media screen and (min-width:722px) and (max-width: 1309px) {
 
 
    
@@ -1321,6 +1322,7 @@ aside
     
     width: 333px;
     height: 189px;
+    margin-left: -10px;
     
 }
 
@@ -1481,7 +1483,7 @@ aside
 
     form i {
         position: absolute;
-        top: 238px;
+        top: 259px;
     }  
 
     #loup {
@@ -1489,7 +1491,7 @@ aside
         border-radius: 10px 10px 10px 10px;
         background-color: #0065fc;
         color: #ffffff;
-        top: 238px;
+        top: 259px;
     }
 
  }
@@ -1499,15 +1501,15 @@ aside
 
     form i {
         position: absolute;
-        top: 316px;
-    }  
+        top: 335px;
+    }
 
     #loup {
         visibility: inherit;
         border-radius: 10px 10px 10px 10px;
         background-color: #0065fc;
         color: #ffffff;
-        top: 316px;
+        top: 335px;
     }
 
 
@@ -1543,6 +1545,7 @@ aside
         width: 313px;
         height: 189px;
         margin-left: 0px;
+        margin-bottom: 27px;
     }
 
     .ile {
@@ -1555,6 +1558,7 @@ aside
         height: 189px;
         margin-left: 0px;
         margin-top: 25px;
+        margin-bottom: 23px;
     }
 
     .fort {
@@ -1571,6 +1575,7 @@ aside
     #vieux_port {
         width: 313px;
         height: 189px;
+        margin-bottom: 22px;
     }
 
     .port {
@@ -1643,7 +1648,7 @@ aside
  @media screen and (min-width:350px) and (max-width: 373px) {
     form i {
         position: absolute;
-        top: 295px;
+        top: 314px;
     }  
 
     #loup {
@@ -1651,7 +1656,100 @@ aside
         border-radius: 10px 10px 10px 10px;
         background-color: #0065fc;
         color: #ffffff;
-        top: 295px;
+        top: 314px;
     }
 
+}
+@media  screen and (min-width:1408px) and (max-width:1679px){
+    .bloc_image{
+    background-color: #ffffff;
+    width: 246px;
+    height: 199px;
+    border-radius: 18px;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 31px;
+    margin-right: -2px;
+    margin-left: 40px;
+    }    
+
+
+    #hebergement
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    width: 74%;
+    height: 621px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+#bloc_asside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 617px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    margin-left: 13px;
+    }
+
+    #hebergement {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #f2f2f2;
+        width: 69%;
+        height: 621px;
+        border-radius: 20px;
+        margin-left: 57px;
+    }
+
+    #recherche {
+        margin-left: 62px;
+    }
+
+    #filtre {
+        height: 120px;
+        margin-left: 56px;
+        margin-top: 20px;
+    }
+
+    #logo {
+        display: flex;
+        float: left;
+        margin-left: 57px;
+    }
+
+    .titre_activite{
+        padding-left: 45px;
+    }
+
+    #notre_long{
+        margin-left: 0px;
+    }
+
+}
+
+
+@media screen and (min-width:679px) and (max-width:684px){
+    #loup {
+        visibility: inherit;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #0065fc;
+        color: #ffffff;
+        top: 285px;
+    }
+
+    form i {
+        position: absolute;
+        top: 287px;
+    }
 }
