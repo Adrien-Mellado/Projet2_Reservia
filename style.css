@@ -204,6 +204,9 @@ form i
 
 /* hebergements */ 
 
+
+
+
 #hebergement
 {
     display: flex;
@@ -211,7 +214,7 @@ form i
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #f2f2f2;
-    width: 990px;
+    width: 74%;
     height: 621px;
     border-radius: 20px;
     margin-left: 20px;
@@ -245,7 +248,7 @@ form i
 .bloc_image
 {
     background-color: #ffffff;
-    width: 246px;
+    width: 366px;
     height: 199px;
     border-radius: 18px;
     border: 1px solid #f2f2f2;
@@ -254,7 +257,7 @@ form i
 
 .image
 {
-    width: 237px;
+    width: 355px;
     height: 114px;
     object-fit: cover;
     border-radius: 18px 18px 0px 0px;
@@ -307,7 +310,7 @@ form i
 
 aside
 {
-    width: auto;
+    width: 29%;
 }
 
 aside h2 i
@@ -344,12 +347,11 @@ aside h2 i
     margin-left: 120px;
 }
 
-.bloc_populaire
-{
+.bloc_populaire {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 342px;
+    width: 322px;
     height: 143px;
     border-radius: 18px;
     background-color: #ffffff;
@@ -407,9 +409,7 @@ aside h2 i
     padding-left: 10px;
 }
 
-
-#bloc_activite
-{
+#bloc_activite {
     background-color: #FFFFFF;
     border-radius: 20px;
     display: flex;
@@ -965,18 +965,17 @@ aside
     height:583px;
 
 }
-
 #bloc_activite {
     background-color: #FFFFFF;
     border-radius: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     /* margin: 0px 0px 20px 0px; */
     /* width: 100%; */
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
-
 
 #vieux_port
 {
@@ -1244,11 +1243,10 @@ aside
     /*margin-top: 40px;*/
 }
 
-#hebergement h3 
-{
+#hebergement h3 {
     order: 2;
     padding-left: 10px;
-    
+    margin-bottom: 10px;
 }
  
 #hebergement h4 
@@ -1660,45 +1658,9 @@ aside
     }
 
 }
-@media  screen and (min-width:1408px) and (max-width:1679px){
-    .bloc_image{
-    background-color: #ffffff;
-    width: 246px;
-    height: 199px;
-    border-radius: 18px;
-    border: 1px solid #f2f2f2;
-    margin-bottom: 31px;
-    margin-right: -2px;
-    margin-left: 40px;
-    }    
 
-
-    #hebergement
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #f2f2f2;
-    width: 74%;
-    height: 621px;
-    border-radius: 20px;
-    margin-left: 20px;
-}
-
-#bloc_asside {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 617px;
-    width: 100%;
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 12px;
-    margin-left: 13px;
-    }
+@media  screen and (min-width:1309px) and (max-width:1525px){
+    
 
     #hebergement {
         display: flex;
@@ -1711,31 +1673,58 @@ aside
         border-radius: 20px;
         margin-left: 57px;
     }
-
-    #recherche {
-        margin-left: 62px;
-    }
-
-    #filtre {
-        height: 120px;
-        margin-left: 56px;
-        margin-top: 20px;
-    }
-
-    #logo {
+    #logement {
         display: flex;
-        float: left;
-        margin-left: 57px;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
     }
 
-    .titre_activite{
-        padding-left: 45px;
+    .bloc_image {
+        background-color: #ffffff;
+        width: 246px;
+        height: 199px;
+        border-radius: 18px;
+        border: 1px solid #f2f2f2;
+        margin-bottom: 31px;
+        margin-left: 20px;
     }
-
-    #notre_long{
-        margin-left: 0px;
+    #bloc_asside {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 617px;
+        width: 100%;
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 12px;
+        margin-left: 13px;
     }
-
+    .image {
+        width: 237px;
+        height: 114px;
+        object-fit: cover;
+        border-radius: 18px 18px 0px 0px;
+        padding: 5px;
+    }
+    #bloc_asside {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 617px;
+        width: 129%;
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 12px;
+        margin-left: 14px;
+    }
 }
 
 
